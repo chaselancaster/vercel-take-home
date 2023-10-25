@@ -3,7 +3,10 @@ import Link from "next/link";
 export default function ResponseOne() {
   return (
     <div className="flex-row justify-items-center mb-4">
-      <h1 className="text-2xl">Response One</h1>
+      <h1 className="text-2xl">
+        Describe how you solved a challenge that one of your previous teams
+        faced. How did you determine your solution was successful?
+      </h1>
       <p className="mt-5">
         In a previous role, my team and I faced a challenge when our company was
         on the cusp of releasing a major user management product that expanded
