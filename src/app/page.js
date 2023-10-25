@@ -32,6 +32,9 @@ export default function Home() {
         <Link className="underline text-xl" href="/response-seven">
           - Question Seven
         </Link>
+        <Link className="underline text-xl" href="/thank-you">
+          - Thank You!
+        </Link>
       </ul>
     </>
   );
