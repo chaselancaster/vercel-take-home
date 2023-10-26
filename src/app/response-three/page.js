@@ -26,8 +26,8 @@ export default function ResponseThree() {
       </p>
       <p className="mt-5">
         To begin, let's explore the differences between Serverless Functions and
-        Edge Functions, as understanding these distinctions is crucial in
-        choosing the right tool for your needs. Serverless Functions offer full
+        Edge Functions, as understanding these distinctions will help you pick
+        the right function type for your needs. Serverless Functions offer full
         support for Node.js, with additional runtime options like Go, Python,
         and Ruby in beta. Node.js, in particular, provides access to the full
         spectrum of Node.js APIs, making it versatile for various applications.
@@ -67,7 +67,7 @@ export default function ResponseThree() {
           href="https://vercel.com/docs/functions/serverless-functions/regions#select-a-default-serverless-region"
           target="_blank"
         >
-          deployed based on specific regions
+          deployed based on specific regions{" "}
         </a>
         (with multi-region support available for Enterprise plans), Edge
         Functions execute closer to your users and databases, reducing network
@@ -105,7 +105,7 @@ export default function ResponseThree() {
       <p className="mt-5">
         One practical use case for Edge Middleware is content localization. If
         your user base spans the globe, you may need to tailor your content to
-        specific regions. Edge Middleware enables you to identify a user's IP
+        specific regions. With Edge Middleware, you could identify a user's IP
         address and use it to serve region-specific content. This gives you the
         flexibility to serve multiple versions of your site and direct requests
         to specific static pages based on your middleware configurations. If
@@ -125,7 +125,7 @@ export default function ResponseThree() {
         I know there is a lot of information here to consider, so here is a
         brief summary of when you might decide to use these options:
       </p>
-      <ul>
+      <ul className="mt-5">
         <li>
           - Use Serverless Functions for demanding workloads or functions with
           package sizes up to 250 MB, especially if you need full Node.js API

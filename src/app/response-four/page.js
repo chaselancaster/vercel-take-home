@@ -102,7 +102,7 @@ export default function ResponseFour() {
         >
           here
         </a>{" "}
-        to check out all of the available field options.{" "}
+        to check out all of the available properties.{" "}
       </p>
       <p className="mt-5">
         For another quick example, since I mentioned Next.js above, this is what

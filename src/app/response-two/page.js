@@ -10,12 +10,12 @@ export default function ResponseTwo() {
       <p className="mt-5">
         I’ll be comparing the Next.js framework with Gatsby for this exercise.
         To keep things simple, I’ll divide the comparisons up into categories so
-        that anyone reading can get a general comparison and the distinguishing
-        factors.
+        that anyone reading can get a general comparison and understand the
+        distinguishing factors.
       </p>
       <p className="mt-5">
-        These two frameworks have some crossovers, so before I get into the pros
-        and cons, let’s talk about the similarities.
+        These two frameworks have some crossovers, so before I get into the main
+        differences, let’s talk about the similarities.
       </p>
       <p className="mt-5">Common Ground:</p>
       <ul>
@@ -60,7 +60,7 @@ export default function ResponseTwo() {
       <p className="mt-5">Performance:</p>
       <ul>
         <li>
-          Next.js: Next’s bread and butter is server-side rendering. Dynamic
+          Next.js: Next.js' bread and butter is server-side rendering. Dynamic
           rendering can be delivered based on client requests, which makes
           performance top-tier for intricate websites that need to vary content
           constantly.
@@ -81,7 +81,7 @@ export default function ResponseTwo() {
         <li>
           Gatsby.js: Gatsby might not be the best choice for websites needing
           constant content updates, as changes are not reflected in near
-          real-time like they are on Next.
+          real-time like they are on Next.js.
         </li>
       </ul>
       <p className="mt-5">Plugin Ecosystem:</p>
@@ -89,7 +89,7 @@ export default function ResponseTwo() {
         <li>
           Next.js: Plugins are not a major focus and there is limited
           flexibility in terms of using plugins as the main driver for building
-          a site with Next.
+          a site with Next.js.
         </li>
         <li>
           Gatsby.js: Has an extensive ecosystem of plugins allowing for tons of
@@ -103,7 +103,7 @@ export default function ResponseTwo() {
         With that being said, the selection between Next.js and Gatsby.js should
         hinge on specific project needs. Next.js excels in building server-side
         dynamic sites, while Gatsby.js leans in on crafting static websites with
-        fast load times. The decision should be made considering the project's
+        fast load times. The decision should be made based on the project's
         nature, scalability, the developer’s expertise, and the MVP that is
         trying to be achieved.
       </p>

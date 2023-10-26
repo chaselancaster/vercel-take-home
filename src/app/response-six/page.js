@@ -60,7 +60,7 @@ export default function ResponseSix() {
           this doc
         </a>{" "}
         from Google’s side. They also include a thorough explanation of the
-        `noindex` value{" "}
+        `noindex` rule{" "}
         <a
           className="underline"
           href="https://developers.google.com/search/docs/crawling-indexing/block-indexing"

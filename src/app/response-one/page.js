@@ -64,7 +64,7 @@ export default function ResponseOne() {
         effective. It not only empowered our support team with a deep
         understanding of the competitive landscape but also engaged
         cross-functional teams in a way that directly contributed to the
-        eventual launch of our user management product in a new market.
+        eventual launch of the user management product in a new market.
       </p>
       <p className="mt-5">
         <Link
